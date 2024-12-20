@@ -51,6 +51,6 @@ jobs:
 
       - name: Call Update Bundle Workflow
         if: github.ref == 'refs/heads/main'
-        uses: ./.github/workflows/update-bundle.yml
+        uses: indrastorms/Dropped-Patches/.github/workflows/update-bundle.yml@main
         with:
           version: ${{ steps.semantic_release.outputs.version }}
