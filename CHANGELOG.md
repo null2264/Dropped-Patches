@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/indrastorms/Dropped-Patches/compare/v1.4.4...v1.4.5) (2024-12-20)
+
+
+### Bug Fixes
+
+* remote json ([9721560](https://github.com/indrastorms/Dropped-Patches/commit/97215603ee6afe07d5c20c46090584bb5ea65fb5))
+
 ## [1.4.4](https://github.com/indrastorms/Dropped-Patches/compare/v1.4.3...v1.4.4) (2024-12-20)
 
 
