@@ -26,15 +26,13 @@ jobs:
           version=${{ inputs.version }}
           patches_asset_url="https://github.com/indrastorms/Dropped-Patches/releases/latest/download/patches-${version}.rvp"
           signatureDownloadUrl="https://github.com/indrastorms/Dropped-Patches/releases/latest/download/patches-${version}.rvp.asc"
-          =
-          description=
-
+          
           info_dict=$(cat <<EOF
           {
-              "createdAt": "2024-12-12T15:38:39Z",
-              "description": "testing",
+              "createdAt": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+              "description": "Release version ${version}",
               "downloadUrl": "${patches_asset_url}",
-              "signatureDownloadUrl":"${signatureDownloadUrl}",
+              "signatureDownloadUrl": "${signatureDownloadUrl}",
               "version": "${version}"
           }
           EOF
