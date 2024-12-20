@@ -53,7 +53,6 @@ jobs:
         
       - name: Call Update Bundle Workflow
         if: github.ref == 'refs/heads/main'  # Check if the branch is main
-        uses: actions/checkout@v4
-        uses: ./update-bundle.yml  # Path to the update-bundle workflow
+        uses: indrastorms/Dropped-Patches/.github/workflows/update-bundle.yml@main
         with:
           version: ${{ steps.semantic_release.outputs.version }}  # Pass the version output
