@@ -1,3 +1,15 @@
+## [1.5.2](https://github.com/null2264/Dropped-Patches/compare/v1.5.1...v1.5.2) (2024-12-21)
+
+
+### Bug Fixes
+
+* Forgor to remove it from patches.api ([b5d1150](https://github.com/null2264/Dropped-Patches/commit/b5d115090ced82d9279e901fae725a5781571129))
+
+
+### Reverts
+
+* "fix: Don't use lambda maybe?" ([b267ca5](https://github.com/null2264/Dropped-Patches/commit/b267ca587724d33d2499088439cc7634ce4b76e0))
+
 ## [1.5.1](https://github.com/null2264/Dropped-Patches/compare/v1.5.0...v1.5.1) (2024-12-21)
 
 
