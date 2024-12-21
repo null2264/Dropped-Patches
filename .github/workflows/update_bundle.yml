@@ -45,8 +45,8 @@ jobs:
           )
 
           echo "bundle_file=dropped-patches-bundle.json" >> $GITHUB_ENV
-          echo "$info_dict" > "${{ env.bundle_file }}"
-          echo "Latest release information saved to ${{ env.bundle_file }}"
+          echo "$info_dict" > dropped-patches-bundle.json
+          echo "Latest release information saved to dropped-patches-bundle.json"
 
       - name: Commit changes
         run: |

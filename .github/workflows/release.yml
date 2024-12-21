@@ -53,10 +53,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm exec semantic-release
-
-  update-bundle:
-    needs: release
-    if: github.ref == 'refs/heads/main'
-    uses: ./.github/workflows/update_bundle.yml
-    with:
-      version: ${{ needs.release.outputs.version }}
