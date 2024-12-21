@@ -13,7 +13,9 @@ val unlockPremiumPatch = rawResourcePatch(
     compatibleWith("com.spotify.music"("8.9.8.545"))
 
     execute {
-        listOf("x86", "x86_64", "armeabi-v7a").forEach { delete("lib/$it") }
+        delete("lib/x86")
+        delete("lib/x86_64")
+        delete("lib/armeabi-v7a")
     }
 
     dependsOn(
