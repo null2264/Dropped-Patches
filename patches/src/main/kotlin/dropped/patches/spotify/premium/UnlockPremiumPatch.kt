@@ -1,5 +1,6 @@
 package dropped.patches.spotify.premium
 
+import app.revanced.patcher.patch.PatchException
 import app.revanced.patcher.patch.rawResourcePatch
 import dropped.patches.shared.misc.hex.Replacement
 import dropped.patches.shared.misc.hex.hexPatch
