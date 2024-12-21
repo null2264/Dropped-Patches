@@ -54,6 +54,6 @@ jobs:
   update-bundle:
     needs: release
     if: github.ref == 'refs/heads/main'
-    uses: ./.github/workflows/update-bundle.yml
+    uses: ./.github/workflows/update_bundle.yml
     with:
       version: ${{ needs.release.outputs.version }}
