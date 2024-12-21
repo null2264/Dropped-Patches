@@ -26,7 +26,7 @@ jobs:
 
       - name: Build
         env:
-          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./gradlew build clean
 
       - name: Setup Node.js
@@ -54,6 +54,6 @@ jobs:
   update-bundle:
     needs: release
     if: github.ref == 'refs/heads/main'
-    uses: indrastorms/Dropped-Patches/.github/workflows/update-bundle.yml@main
+    uses: ./.github/workflows/update-bundle.yml
     with:
       version: ${{ needs.release.outputs.version }}
