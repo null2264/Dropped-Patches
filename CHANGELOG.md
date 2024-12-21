@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/null2264/Dropped-Patches/compare/v1.5.0...v1.5.1) (2024-12-21)
+
+
+### Bug Fixes
+
+* Don't use lambda maybe? ([8e8da6e](https://github.com/null2264/Dropped-Patches/commit/8e8da6ea7ea297fcc57b189c29b26fa9e0d9a876))
+
 # [1.5.0](https://github.com/null2264/Dropped-Patches/compare/v1.4.5...v1.5.0) (2024-12-21)
 
 
