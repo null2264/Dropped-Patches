@@ -35,10 +35,10 @@ jobs:
           
           info_dict=$(cat <<EOF
           {
-              "createdAt": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+              "created_at": "$(date -u +"%Y-%m-%dT%H:%M:%S")",
               "description": "Release version ${version}",
-              "downloadUrl": "${patches_asset_url}",
-              "signatureDownloadUrl": "${signatureDownloadUrl}",
+              "download_url": "${patches_asset_url}",
+              "signature_download_url": "${signatureDownloadUrl}",
               "version": "${version}"
           }
           EOF
