@@ -12,10 +12,6 @@ val unlockPremiumPatch = rawResourcePatch(
 ) {
     compatibleWith("com.spotify.music"("8.9.8.545"))
 
-    execute {
-        listOf("x86", "x86_64", "armeabi-v7a").forEach { delete("lib/$it") }
-    }
-
     dependsOn(
         hexPatch {
             setOf(
@@ -37,4 +33,20 @@ val unlockPremiumPatch = rawResourcePatch(
             )
         },
     )
+
+    execute {
+        listOf("x86", "x86_64", "armeabi-v7a").forEach { arch ->
+            val dir = try {
+                get("lib/$arch")
+            } catch (e: Exception) {
+                throw PatchException("Could not find arch directory: lib/$arch")
+            }
+
+            try {
+                dir.delete()
+            } catch (e: Exception) {
+                throw PatchException("Unable to delete arch directory: lib/$arch")
+            }
+        }
+    }
 }
