@@ -1,3 +1,12 @@
+## [1.5.3](https://github.com/null2264/Dropped-Patches/compare/v1.5.2...v1.5.3) (2024-12-21)
+
+
+### Bug Fixes
+
+* Fail if arch directories can't be deleted ([ac795f2](https://github.com/null2264/Dropped-Patches/commit/ac795f2b5f9d36349bdd6f14b9d9de6a5468771f))
+* It's supposed to be space indent ([5de9124](https://github.com/null2264/Dropped-Patches/commit/5de912473494a264f0868c4b5f5e9ea48fcce2d5))
+* Missing import ([74eb436](https://github.com/null2264/Dropped-Patches/commit/74eb436b51c34f16c53b9b30d5355775871fbbf4))
+
 ## [1.5.2](https://github.com/null2264/Dropped-Patches/compare/v1.5.1...v1.5.2) (2024-12-21)
 
 
