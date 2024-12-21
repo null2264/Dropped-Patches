@@ -1,11 +1,3 @@
-public final class dropped/patches/fxfileexplorer/unlockplus/UnlockPlusPatchKt {
-	public static final fun getUnlockPlusPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
-}
-
-public final class dropped/patches/nova/prime/UnlockPrimePatchKt {
-	public static final fun getUnlockPrimePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
-}
-
 public final class dropped/patches/shared/misc/hex/HexPatchKt {
 	public static final fun hexPatch (Lkotlin/jvm/functions/Function0;)Lapp/revanced/patcher/patch/RawResourcePatch;
 }
