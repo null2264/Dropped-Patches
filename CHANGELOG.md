@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/null2264/Dropped-Patches/compare/v1.4.5...v1.5.0) (2024-12-21)
+
+
+### Bug Fixes
+
+* Enable context receiver ([0d7437a](https://github.com/null2264/Dropped-Patches/commit/0d7437ab7a09b58335e6848693617efb09d936b5))
+* Handle some breaking changes ([7b3b9f0](https://github.com/null2264/Dropped-Patches/commit/7b3b9f05022555b361ccfe7e386347280cc64583))
+* Plural method name ([67e43da](https://github.com/null2264/Dropped-Patches/commit/67e43da1413ef71ab7059f083173a4c65736ec84))
+
+
+### Features
+
+* Delete unused lib ([79c22cf](https://github.com/null2264/Dropped-Patches/commit/79c22cfc0b592f5fd73611c59d8eb74f7f414596))
+
 ## [1.4.5](https://github.com/indrastorms/Dropped-Patches/compare/v1.4.4...v1.4.5) (2024-12-20)
 
 
