@@ -53,7 +53,7 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add ${{ env.bundle_file }}
-          git commit -m "update ${{ env.bundle_file }} [skip ci]"
+          git commit -m "chore(bundle): Update ${{ env.bundle_file }} [skip ci]"
           git pull
 
       - name: Push changes
