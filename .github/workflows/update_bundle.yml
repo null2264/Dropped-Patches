@@ -30,8 +30,8 @@ jobs:
       - name: Update Bundle
         run: |
           version=${{ inputs.version }}
-          patches_asset_url="https://github.com/indrastorms/Dropped-Patches/releases/latest/download/patches-${version}.rvp"
-          signatureDownloadUrl="https://github.com/indrastorms/Dropped-Patches/releases/latest/download/patches-${version}.rvp.asc"
+          patches_asset_url="https://github.com/null2264/Dropped-Patches/releases/latest/download/patches-${version}.rvp"
+          signatureDownloadUrl="https://github.com/null2264/Dropped-Patches/releases/latest/download/patches-${version}.rvp.asc"
           
           info_dict=$(cat <<EOF
           {
