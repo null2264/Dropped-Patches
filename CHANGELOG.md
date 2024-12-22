@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/null2264/Dropped-Patches/compare/v1.5.3...v1.5.4) (2024-12-22)
+
+
+### Bug Fixes
+
+* **spotify:** Always include trailing "/" ([57a8bab](https://github.com/null2264/Dropped-Patches/commit/57a8bab46e6988aa0ca436952823223210e6a170))
+
 ## [1.5.3](https://github.com/null2264/Dropped-Patches/compare/v1.5.2...v1.5.3) (2024-12-21)
 
 
